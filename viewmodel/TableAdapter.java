@@ -64,6 +64,7 @@ public class TableAdapter extends RecyclerView.Adapter<TableAdapter.TableViewHol
         Context context;
         int tableId;
 
+
         public TableViewHolder(Context context, View itemView) {
             super(itemView);
             this.context = context;
