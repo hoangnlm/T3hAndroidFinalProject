@@ -1,10 +1,12 @@
 package vn.t3h.project1.model;
 
+import java.io.Serializable;
+
 /**
  * Created by Hoang on 8/10/16.
  */
 
-public class MyTable {
+public class Table implements Serializable {
     private int id;
     private int status;
     private int price;
@@ -14,11 +16,11 @@ public class MyTable {
     public static String STATUS_COL_NAME = "status";
     public static String PRICE_COL_NAME = "price";
 
-    public MyTable() {
+    public Table() {
 
     }
 
-    public MyTable(int id, int status, int price) {
+    public Table(int id, int status, int price) {
         this.id = id;
         this.status = status;
         this.price = price;
